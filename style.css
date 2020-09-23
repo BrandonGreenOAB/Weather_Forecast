@@ -1,7 +1,14 @@
 aside {
-    float: left;
+    display: flex;
+    width: 25%;
+    margin-left: 35%;
     background-color: lightgray;
 }
+
+body {
+    background-color: skyblue;
+}
+
 
 .col-md-2, .col-md-3 {
     background-color: lightgray;
@@ -16,12 +23,24 @@ aside {
     text-align: center;
     padding-bottom: 32px;
     padding-top: 32px;
+    background-color: lightgray;
+}
+
+.fyc {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 #currentWeather {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: left;
+    border-radius: 5px;
+}
+
+#dayOne, #dayTwo, #dayThree, #dayFour, #dayFive, aside {
+    border-radius: 5px;
 }
 
 .cityIcon {
@@ -36,3 +55,58 @@ aside {
     display: flex;
     flex-direction: column;
 }
+
+#recentSearches {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.oldSearch {
+    background-color: navy;
+    margin-left: 1px;
+}
+
+
+.forecast {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    aside {
+      float: inherit;
+      display: flex;
+    }
+    
+    aside {
+        display: flex;
+        width: 100%;
+        margin-left: 0%;
+        background-color: lightgray;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .oldSearch {
+        background-color: navy;
+        margin-left: 3px;
+    }
+    #recentSearches {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #weatherBtn {
+        float: right;
+    }
+    #currentWeather {
+        margin-right: 1%;
+    }
+  }

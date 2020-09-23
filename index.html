@@ -23,12 +23,14 @@
 </head>
 <body>
     <div class="jumbotron">Weather Application</div>
+    <div class="asideCtnr">
     <aside>
-    <div class="container mt-5 asideCtnr">
+    <div class="container mt-5 top-box">
 
-        <div class="row">
+        <div class="row" id="topRow">
 
             <div class="col-md-12">
+                <h3 class="fyc">Find your City</h3>
 
                 <form>
                     <div class="form-group">
@@ -40,8 +42,8 @@
             </div>
         </div>
 
-        <div class="row">
-            <div id="recentSearches" class="col-md-2"></div>
+        <div class="row" id="recentRow">
+            <div id="recentSearches" class="col-md-12"></div>
         </div>
 
     </div>
@@ -57,12 +59,13 @@
         <h3 class="mt-2">5 Day Forecast</h3>
         <div class="row mt-3">
             
-            <div id="dayOne" class="col-md-2"></div>
-            <div id="dayTwo" class="col-md-3"></div>
-            <div id="dayThree" class="col-md-2"></div>
-            <div id="dayFour" class="col-md-3"></div>
-            <div id="dayFive" class="col-md-2"></div>
+            <div id="dayOne" class="col-md-2 forecast"></div>
+            <div id="dayTwo" class="col-md-2 forecast"></div>
+            <div id="dayThree" class="col-md-2 forecast"></div>
+            <div id="dayFour" class="col-md-2 forecast"></div>
+            <div id="dayFive" class="col-md-2 forecast"></div>
         </div>
+    </div>
 
     </div>
     <script src="./script.js"></script>

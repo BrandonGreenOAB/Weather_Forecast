@@ -168,6 +168,7 @@ $(document).ready(function () {
     if (history.length > 0) {
 
         currentWeather(history[history.length -1]);
+        forecast(history[history.length -1]);
 
     }
 

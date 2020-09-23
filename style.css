@@ -14,6 +14,8 @@ aside {
 .jumbotron {
     justify-content: center;
     text-align: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 #currentWeather {
@@ -24,4 +26,13 @@ aside {
 
 .cityIcon {
     display: inline;
+}
+
+.timeblk {
+    margin-left: 1%;
+}
+
+.asideCtnr {
+    display: flex;
+    flex-direction: column;
 }

@@ -111,7 +111,6 @@ $(document).ready(function () {
                 uv.text("UV index: " + response.value)
                 $("#currentWeather").append(uv)
                 var date = response.date_iso.split("T")
-                console.log(date)
                 $(cityName).append(" " + date[0])
     
             })
@@ -137,19 +136,28 @@ $(document).ready(function () {
             var hum4 = $("<p>");
             var hum5 = $("<p>");
 
-            day1.text("Temperature: " + response.list[0].main.temp);
+
+            day1.text("Temperature: " + response.list[0].main.temp + " °F");
             $("#dayOne").append(day1);
-            day2.text("Temperature: " + response.list[9].main.temp);
+            day2.text("Temperature: " + response.list[9].main.temp + " °F");
             $("#dayTwo").append(day2);
-            day3.text("Temperature: " + response.list[18].main.temp);
+            day3.text("Temperature: " + response.list[18].main.temp + " °F");
             $("#dayThree").append(day3);
-            day4.text("Temperature: " + response.list[27].main.temp);
+            day4.text("Temperature: " + response.list[27].main.temp + " °F");
             $("#dayFour").append(day4);
-            day5.text("Temperature: " + response.list[36].main.temp);
+            day5.text("Temperature: " + response.list[36].main.temp + " °F");
             $("#dayFive").append(day5);
 
-            hum1.text("Humidity: " + response.list[0].main.humidity)
+            hum1.text("Humidity: " + response.list[0].main.humidity + "%")
             $("#dayOne").append(hum1)
+            hum2.text("Humidity: " + response.list[9].main.humidity + "%")
+            $("#dayTwo").append(hum2)
+            hum3.text("Humidity: " + response.list[18].main.humidity + "%")
+            $("#dayThree").append(hum3)
+            hum4.text("Humidity: " + response.list[27].main.humidity + "%")
+            $("#dayFour").append(hum4)
+            hum5.text("Humidity: " + response.list[36].main.humidity + "%")
+            $("#dayFive").append(hum5)
 
         })
 

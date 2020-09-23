@@ -1,0 +1,27 @@
+aside {
+    float: left;
+    background-color: lightgray;
+}
+
+.col-md-2, .col-md-3 {
+    background-color: lightgray;
+}
+
+#currentWeather {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    justify-content: center;
+    text-align: center;
+}
+
+#currentWeather {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cityIcon {
+    display: inline;
+}

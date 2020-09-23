@@ -3,6 +3,7 @@ aside {
     width: 25%;
     margin-left: 35%;
     background-color: lightgray;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 body {
@@ -12,13 +13,18 @@ body {
 
 .col-md-2, .col-md-3 {
     background-color: lightgray;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #currentWeather {
     background-color: lightgray;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .jumbotron {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
     justify-content: center;
     text-align: center;
     padding-bottom: 32px;
@@ -104,7 +110,7 @@ body {
         flex-wrap: wrap;
     }
     #weatherBtn {
-        float: right;
+        align-content: center;
     }
     #currentWeather {
         margin-right: 1%;

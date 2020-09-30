@@ -17,7 +17,8 @@ BrandonGreenOAB.github.io/Weather_Forecast/
 *Openweathermap API
 
 ## Screenshots
-![screenshot of site](/assets/screenshot.PNG)
+
+![screenshot of site](screenshot.PNG)
 
 ## License 
 

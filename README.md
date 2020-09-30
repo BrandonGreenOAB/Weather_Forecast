@@ -1,2 +1,15 @@
 # Weather_Forecast
-Weather Forecast using API's
+
+## Deployed Application
+BrandonGreenOAB.github.io/Weather_Forecast/
+
+## Technologies Used
+*HTML
+*Jquery
+*JavaScript
+*Google Fonts
+*CSS
+*Openweathermap API
+
+## Screenshots
+
